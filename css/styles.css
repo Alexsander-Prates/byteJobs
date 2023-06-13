@@ -75,3 +75,18 @@ form.input-group {
     width: 300px !important;
     height: 40px !important;
 }
+
+#cadastroref, #faleconoscoref {
+    color: blue; 
+    text-decoration: none; 
+    font-weight: bold; 
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 10px;
+  }
+  
+  #cadastroref:hover, #faleconoscoref:hover {
+    color: red; 
+    text-decoration: underline; 
+    border-color: red;
+  }
